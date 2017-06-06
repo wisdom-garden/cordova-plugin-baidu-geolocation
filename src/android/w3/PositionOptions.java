@@ -9,9 +9,9 @@ public class PositionOptions {
 
   private static final String TAG = "PositionOptions";
 
-  Boolean enableHighAccuracy = false;
-  long maximumAge;
-  long timeout;
+  Boolean enableHighAccuracy = true;
+  long maximumAge = 3000L;
+  int timeout = 5000;
   String coorType;
 
   public PositionOptions(JSONObject options) {
@@ -54,11 +54,11 @@ public class PositionOptions {
     return this;
   }
 
-  public long getTimeout() {
+  public int getTimeout() {
     return timeout;
   }
 
-  public PositionOptions setTimeout(long timeout) {
+  public PositionOptions setTimeout(int timeout) {
     this.timeout = timeout;
     return this;
   }

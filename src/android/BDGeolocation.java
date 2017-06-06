@@ -40,6 +40,7 @@ public class BDGeolocation {
     LocationClientOption bdoptions = new LocationClientOption();
     bdoptions.setCoorType(coorType);
     bdoptions.setLocationMode(locationMode);
+    bdoptions.setTimeOut(options.getTimeout());
     client.setLocOption(bdoptions);
   }
 
