@@ -13,24 +13,24 @@
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="BaiduGeolocation">
-        <param name="android-package" value="com.eteng.geolocation.baidu.GeolocationPlugin" />
+        <param name="android-package" value="com.wisdomgarden.geolocation.baidu.GeolocationPlugin" />
       </feature>
     </config-file>
 
-    <source-file src="src/android/w3/Coordinates.java" target-dir="src/com/eteng/geolocation/w3" />
-    <source-file src="src/android/w3/Position.java" target-dir="src/com/eteng/geolocation/w3" />
-    <source-file src="src/android/w3/PositionOptions.java" target-dir="src/com/eteng/geolocation/w3" />
-    <source-file src="src/android/w3/PositionError.java" target-dir="src/com/eteng/geolocation/w3" />
+    <source-file src="src/android/w3/Coordinates.java" target-dir="src/com/wisdomgarden/geolocation/w3" />
+    <source-file src="src/android/w3/Position.java" target-dir="src/com/wisdomgarden/geolocation/w3" />
+    <source-file src="src/android/w3/PositionOptions.java" target-dir="src/com/wisdomgarden/geolocation/w3" />
+    <source-file src="src/android/w3/PositionError.java" target-dir="src/com/wisdomgarden/geolocation/w3" />
 
-    <source-file src="src/android/BDGeolocation.java" target-dir="src/com/eteng/geolocation/baidu" />
-    <source-file src="src/android/GeolocationPlugin.java" target-dir="src/com/eteng/geolocation/baidu" />
-    <source-file src="src/android/MessageBuilder.java" target-dir="src/com/eteng/geolocation/baidu" />
+    <source-file src="src/android/BDGeolocation.java" target-dir="src/com/wisdomgarden/geolocation/baidu" />
+    <source-file src="src/android/GeolocationPlugin.java" target-dir="src/com/wisdomgarden/geolocation/baidu" />
+    <source-file src="src/android/MessageBuilder.java" target-dir="src/com/wisdomgarden/geolocation/baidu" />
 
-    <source-file src="src/android/libs/armeabi/liblocSDK7.so" target-dir="libs/armeabi" />
-    <source-file src="src/android/libs/armeabi-v7a/liblocSDK7.so" target-dir="libs/armeabi-v7a" />
-    <source-file src="src/android/libs/arm64-v8a/liblocSDK7.so" target-dir="libs/arm64-v8a" />
-    <source-file src="src/android/libs/x86/liblocSDK7.so" target-dir="libs/x86" />
-    <source-file src="src/android/libs/x86_64/liblocSDK7.so" target-dir="libs/x86_64" />
+    <source-file src="src/android/libs/armeabi/liblocSDK7b.so" target-dir="libs/armeabi" />
+    <source-file src="src/android/libs/armeabi-v7a/liblocSDK7b.so" target-dir="libs/armeabi-v7a" />
+    <source-file src="src/android/libs/arm64-v8a/liblocSDK7b.so" target-dir="libs/arm64-v8a" />
+    <source-file src="src/android/libs/x86/liblocSDK7b.so" target-dir="libs/x86" />
+    <source-file src="src/android/libs/x86_64/liblocSDK7b.so" target-dir="libs/x86_64" />
     <source-file src="src/android/libs/BaiduLBS_Android.jar" target-dir="libs" />
 
     <config-file target="AndroidManifest.xml" parent="/*">
